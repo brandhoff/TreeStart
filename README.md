@@ -1,6 +1,11 @@
 ![Awesome ReadME](https://raw.githubusercontent.com/brandhoff/TreeStart/main/LOGO_crop.png) 
 <h1>TreeStart</h1>
- [![GitHub last commit](https://img.shields.io/github/last-commit/brandhoff/TreeStart)](https://img.shields.io/github/last-commit/brandhoff/TreeStart) [![GitHub issues](https://img.shields.io/github/issues-raw/brandhoff/TreeStart)](https://img.shields.io/github/issues-raw/brandhoff/TreeStart) [![GitHub pull requests](https://img.shields.io/github/issues-pr/brandhoff/TreeStart)](https://img.shields.io/github/issues-pr/brandhoff/TreeStart)
+ ![GitHub last commit](https://img.shields.io/github/last-commit/brandhoff/TreeStart)
+ (https://img.shields.io/github/last-commit/brandhoff/TreeStart) 
+ ![GitHub issues](https://img.shields.io/github/issues-raw/brandhoff/TreeStart)
+ (https://img.shields.io/github/issues-raw/brandhoff/TreeStart) 
+ ![GitHub pull requests](https://img.shields.io/github/issues-pr/brandhoff/TreeStart)
+ (https://img.shields.io/github/issues-pr/brandhoff/TreeStart)
 Exercises for object-oriented programming by Jonas Brandhoff
 <h2>Introduction: Classes and their Objects </h2>
 
