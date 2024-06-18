@@ -1,36 +1,39 @@
-
 #include "tree.h"
-        Tree::Tree(){
-            this->printCoords();
-        };
 
-        Tree::Tree(double x0, double y0, double z0){
-            this->x_base = x0;
-            this->y_base = y0;
-            this->z_base = z0;
-            this->printCoords();
-        };
+Tree::Tree(){
+    printCoords();
+};
 
-        Tree::Tree(double x0, double y0, double z0, double height){
-            this->x_base = x0;
-            this->y_base = y0;
-            this->z_base = z0;
-            this->height = height;
-            this->printCoords();
-        };
+Tree::Tree(double x0, double y0, double z0){
+    x_base = x0;
+    y_base = y0;
+    z_base = z0;
+    printCoords();
+};
 
-        void Tree::printCoords() {
-             std::cout << "Koordinaten: " << x_base << "|" << y_base << "|" << z_base << "| Höhe: " << height << std::endl;
+Tree::Tree(double x0, double y0, double z0, double height){
+    x_base = x0;
+    y_base = y0;
+    z_base = z0;
+    height = height;
+    printCoords();
+};
 
-        };
+void Tree::printCoords() {
+    std::cout << "Coordinates: " << x_base << "|" << y_base << "|" << z_base << " Height: " << height << std::endl;
+};
 
-        void Tree::grow_br(Branch b){
-            this->branchList.push_back(b);
-        };
+void Tree::grow_branches(Branch b){
+    branchList.push_back(b);
+};
 
-        int Tree::getNumBranches(){
+int Tree::getNumBranches(){
+    return branchList.size();
+};
 
-            return this->branchList.size();
-        };
-
+void Tree::printBranchList() {
+    for (auto b : branchList) {
+        b.printBranches();
+    }
+};
         

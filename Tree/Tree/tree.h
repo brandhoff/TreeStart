@@ -3,10 +3,8 @@
 #include <list>
 #include "Branch.h"
 
-
 class Tree
 {
-
     private:
         double x_base = 0, y_base = 0, z_base = 0;
         double height = 0;
@@ -15,7 +13,8 @@ class Tree
         Tree();
         Tree(double x0, double y0, double z0);
         Tree(double x0, double y0, double z0, double height);
-        void grow_br(Branch b);
-        int getNumBranches();
         void printCoords();
+        void grow_branches(Branch b);
+        int getNumBranches();
+        void printBranchList();
 };
