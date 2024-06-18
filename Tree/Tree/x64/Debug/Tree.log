@@ -1,5 +1,7 @@
-﻿  Leaf.cpp
+﻿  branch.cpp
+  Leaf.cpp
+  main.cpp
   tree.cpp
-C:\Users\Antonia\source\repos\Tree\Tree\tree.cpp(28,43): warning C4267: "return": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Users\Antonia\OneDrive\Dokumente\Antonia\GitHub\TreeStart\Tree\Tree\tree.cpp(28,43): warning C4267: "return": Konvertierung von "size_t" nach "int", Datenverlust möglich
   Code wird generiert...
-  Tree.vcxproj -> C:\Users\Antonia\source\repos\Tree\x64\Debug\Tree.exe
+  Tree.vcxproj -> C:\Users\Antonia\OneDrive\Dokumente\Antonia\GitHub\TreeStart\Tree\x64\Debug\Tree.exe

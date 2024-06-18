@@ -141,12 +141,14 @@
   <ItemGroup>
     <ClInclude Include="Branch.h" />
     <ClInclude Include="Leaf.h" />
+    <ClInclude Include="Oak.h" />
     <ClInclude Include="tree.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="branch.cpp" />
     <ClCompile Include="Leaf.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Oak.cpp" />
     <ClCompile Include="tree.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
