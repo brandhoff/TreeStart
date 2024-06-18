@@ -1,0 +1,5 @@
+﻿  Leaf.cpp
+  tree.cpp
+C:\Users\Antonia\source\repos\Tree\Tree\tree.cpp(28,43): warning C4267: "return": Konvertierung von "size_t" nach "int", Datenverlust möglich
+  Code wird generiert...
+  Tree.vcxproj -> C:\Users\Antonia\source\repos\Tree\x64\Debug\Tree.exe
